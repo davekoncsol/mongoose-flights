@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <title><%= title %></title>
+</head>
+<body>
+  <nav>
+    <img src="https://dz7u9q3vpd4eo.cloudfront.net/wp-content/legacy/posts/484e5297-d3e0-4897-9ab5-ebea51a317ff.jpg">
+    <a href="/flights/new" <%- title === 'Add Flight' ? 'class-"active"' : ''  %>>Add Flight</a>
+  </nav>
+  <main>
+    <h1><%= title %></h1>
